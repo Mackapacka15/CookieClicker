@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <div class="main-body">
+      <header class="header">
+        <h1>Cookie Clicker</h1>
+      </header>
+      <div class="cookieBody">
+        <div class="cookieConrol">
+          <p>
+            Cookies:
+            <span id="cookies-clicked">0</span>
+          </p>
+          <button type="button" class="add-cookie">AddCookie</button>
+        </div>
+        <div class="energyControl">
+          <p>
+            Energy:
+            <span id="energy-ammount">You have 100 energy left</span>
+          </p>
+          <button type="button" class="energy-button">
+            Buy Energy (cost 200 Cookies gives 100 Energy)
+          </button>
+        </div>
+      </div>
+      <div class="powerups">
+        <div class="click-multiplyer">
+          <p>
+            Click multiplier cost = <span id="click-multiply-next-cost"></span>
+          </p>
+          <button type="button" id="click-multiply">
+            Next multiplier = x<span id="next-multiply">2 </span>
+          </button>
+        </div>
+        <div class="auto-clicker">
+          <p>Auto clicker cost = <span id="auto-clicker-next-cost"></span></p>
+          <button type="button" id="auto-clicker-button">
+            Buy auto clicker (gives 1 click per second)
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

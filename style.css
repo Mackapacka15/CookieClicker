@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vh;
+  justify-content: center;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: #93eb85;
+  border-bottom: 3px solid #d5df9a;
+}
+.powerups {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: #93eb85;
+  padding: 0.3vh;
+}
+.powerups p {
+  font-size: medium;
+  padding: 0.5vh;
+}
+.powerups button {
+  width: 100%;
+}
+.cookieBody {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+}
+.cookieConrol {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.energyControl {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
