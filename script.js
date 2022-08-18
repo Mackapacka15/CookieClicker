@@ -15,6 +15,7 @@ let update = () => {
   }
 };
 
+
 let addAutoCookies = () => {
   cookieAmmount += currentAutoClickerAmount;
   update();
